@@ -1,0 +1,24 @@
+{
+  "title": "Trustpilot Scraper Input",
+  "description": "Configuration for Trustpilot company review scraping",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "companies": {
+      "title": "Company Names",
+      "type": "array",
+      "description": "Company names to search on Trustpilot (e.g., ['amazon.com', 'netflix.com'])",
+      "items": { "type": "string" },
+      "editor": "stringList"
+    },
+    "maxReviews": {
+      "title": "Maximum Reviews",
+      "type": "integer",
+      "description": "Maximum number of reviews to scrape per company",
+      "default": 50,
+      "minimum": 1,
+      "maximum": 1000
+    }
+  },
+  "required": ["companies"]
+}
