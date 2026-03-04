@@ -1,0 +1,9 @@
+{
+  "actorSpecVersion": 1,
+  "name": "nexus-trustpilot-scraper",
+  "title": "Trustpilot Scraper",
+  "description": "Crawls trustpilot.com/review/{company}, extracts reviewerName, rating, reviewTitle, reviewText, reviewDate, verifiedBuyer",
+  "version": "1.0.0",
+  "buildTag": "latest",
+  "environmentVariables": [],
+}
